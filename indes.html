@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="molde/model.css">
+    <title>PV Panaderia y Pasteleria Vergara</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/PV/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Panaderia y Pasteleria <span>Vergara</span>, Calidad y servicio</h2>
+                <p class="descripcion">Ofrecemos servicio a todo el municipio del Espinal y sus veredas </p>
+                <a href="#servicios" >Haz Tu Pedido </a>
+                <a href="factura.html" target="_blank" >Tus Pedido </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E  M I  E M P R E S A -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/3.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi Empresa</p>
+            <h2>Panaderia y Pasteleria<span>Vergara</span> </h2>
+            <h3>Ofrecemos Calidad y Servicio</h3>
+            <p>Servicios de entrega de pan a los municipio del Espinal Tolima y guamo Tolima, para las veredas, Montalvo, Morena, chamba, chupuelo, rincón santos y demás.</p>
+            <a target="_blank" href="acerca.html">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <img src="img/pan.jpg" alt="" class="img1"></span>
+                <h4>Panes Normal</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Panes 1000 Pesos</li>
+                </ul>
+                <p><a target="_blank" href="pedidos.html">Click aqui</a></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <img src="img/pan.jpg" alt="" class="img1"></span>
+                <h4>Panes Especiales</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Panes 5000 Pesos</li>
+                </ul>
+                <p><a target="_blank" href="Especiales.html">Click aqui</a></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <img src="img/pan.jpg" alt="" class="img1"></span>
+                <h4>Panes Especiales</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Panes 5000 Pesos</li>
+                </ul>
+                <p><a target="_blank" href="Especiales.html">Click aqui</a></p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <img src="img/ponque.jpg" alt="" class="img1"></span>
+                <h4>Torta fria</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Torta fria</li>
+                </ul>
+                <p><a target="_blank" href="ponque.html">Click aqui</a></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <img src="img/ponque.jpg" alt="" class="img1"></span>
+                <h4>biscocho</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>biscocho</li>
+                </ul>
+                <p><a target="_blank" href="ponque.html">Click aqui</a></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <img src="img/ponque.jpg" alt="" class="img1"></span>
+                <h4>Ponque</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Ponque</li>
+                </ul>
+                <p><a target="_blank" href="ponque.html">Click aqui</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Nuestro Trabajo</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/1.jpg" alt="">
+                <div class="info">
+                    <h4>Pan</h4>
+                    <p>pan para tienda</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/2.jpg" alt="">
+                <div class="info">
+                    <h4>Pan Especiales</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/3.jpg" alt="">
+                <div class="info">
+                    <h4>Pan Comun</h4>
+                    <p>Pan para veredas</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/4.jpg" alt="">
+                <div class="info">
+                    <h4>entrega de pan</h4>
+                    <p>vereda</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/5.jpg" alt="">
+                <div class="info">
+                    <h4>vereda</h4>
+                    <p>entrega de pan</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/9.jpg" alt="">
+                <div class="info">
+                    <h4>Torta fria</h4>
+                    <p>Diseño exclusivos</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/pan.jpg" alt="">
+                <div class="info">
+                    <h4>Pan Especial</h4>
+                    <p>Diseño exclusivos</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/6.jpg" alt="">
+                <div class="info">
+                    <h4>Pan Comun</h4>
+                    <p>Pan para tienda</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/8.jpg" alt="">
+                <div class="info">
+                    <h4>ponque</h4>
+                    <p>Diseño exclusivos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los Derechos Reservado a Mauricio Sanchez y Vanessa Sanchez</p>
+        <p>Instituto Tolimense de Formación Técnica Profesional "ITFIP"</p>
+        <p>Tecnico Profecional en Programacion web - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

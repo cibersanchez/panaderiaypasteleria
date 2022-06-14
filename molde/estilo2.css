@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 0 auto;
+	width: 1200px;
+	min-height: 300px;
+	max-width: 1200px;
+}
+.header{
+    margin: 25px;
+    text-align: center;
+    justify-content: space-between;
+}
+.form{
+    padding: 15px;
+}
+.td{
+    text-align: center;
+    padding: 25px;
+}
+aside{
+    float: right;
+}
+img{
+    width: 350px; 
+    height: 250px; 
+    justify-content: space-between;
+}
+.clearfix{
+	clear:both;
+}
+body{
+    animation: fadein 4s;
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+table{
+    margin: 0px auto;
+    color: #fff;
+    border: 1px red;
+    width: 540px;
+    height: 400px;
+}
+.p
+{
+    font-size: 20px;
+    border: red solid 2px;
+    min-width: 40px;
+    text-align: center;
+    justify-content: space-between;
+    width: 540px;
+    height: auto;
+    color: #fff;
+    margin: 0px auto;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    
+}
+
+.boton{
+    width: 80px;
+    left: 15px;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1.5;
+    }
+    100%{
+        opacity: 2;
+    }
+}
